@@ -1,0 +1,65 @@
+# ==========================================
+# SMART HEALTHCARE ASSISTANCE SYSTEM
+# Python Backend + IoT Simulation + RAG
+# Multi-Agent AI
+# ==========================================
+
+# ---------- FastAPI Backend ----------
+fastapi
+uvicorn[standard]
+python-multipart
+
+# ---------- Configuration & Validation ----------
+python-dotenv
+pydantic
+pydantic-settings
+email-validator
+
+# ---------- Database ----------
+sqlalchemy
+psycopg2-binary
+alembic
+
+# ---------- Authentication ----------
+python-jose[cryptography]
+passlib[bcrypt]
+bcrypt
+
+# ---------- HTTP / API ----------
+httpx
+requests
+
+# ---------- Real-time Communication ----------
+websockets
+
+# ---------- AI / Agents ----------
+langchain
+langchain-community
+langchain-text-splitters
+langgraph
+
+# ---------- LLM ----------
+langchain-groq
+openai
+
+# ---------- RAG ----------
+chromadb
+sentence-transformers
+
+# ---------- Document Processing ----------
+pypdf
+unstructured
+
+# ---------- Data Processing ----------
+numpy
+pandas
+
+# ---------- Testing ----------
+pytest
+pytest-asyncio
+
+# ---------- Logging ----------
+loguru
+
+# ---------- MCP ------------
+fastmcp
