@@ -13,3 +13,4 @@ __pycache__/
 *.db-shm
 *.db-journal
 chroma_store/
+storage/
